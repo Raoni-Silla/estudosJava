@@ -1,4 +1,4 @@
-
+Essas anotações vem de estudo proprio e das videos aulas do canal curso em video e devdojo maratona java
 
 Como Programas se Tornam Executáveis: C vs. Java
 C e a Compilação Específica por Plataforma
@@ -39,4 +39,17 @@ Debugger: Ajuda a encontrar e corrigir erros no código.
 APIs de Desenvolvimento: Bibliotecas adicionais para diversas finalidades de programação.
 IDE (Integrated Development Environment)
 Uma IDE (Integrated Development Environment) é um ambiente de desenvolvimento integrado. Ela é um software que combina diversas ferramentas essenciais para o desenvolvimento de software em uma única interface, como editor de código, compilador (ou integração com o compilador), debugger e outras ferramentas de automação, facilitando e agilizando o processo de programação.
+
+então o app roda na jvm e a jvm roda em cima do so, cada so tem sua jvm
+porém a sua aplicação é feita direto pro jvm, vai ser um app1.java(arquivo incial) e depois vai pro executavel que é o app.class(bytecode)
+ai sim o arquivo.class é mandando pra jvm
+linguagens de programação de alto nivel é quando a linguagem é de facil entendimento dos humanos
+e as de baixo nivel são mais complexas e mais perto da maquina So, tipo o assembly, nao dando pra entender
+facilmente oque ta rolando no arquivo
+o java é atualizado a cada 6 meses
+
+versões LTS, tem suporte a longo prazo, são as melhores pra se usar
+as empresas focam sempre nas versões LTS, são mais confiaveis
+
+classes seguem o padrão camel case, primeira letra maiscula sempre quando é class
 
