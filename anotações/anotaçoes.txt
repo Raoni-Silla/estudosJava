@@ -58,11 +58,55 @@ o bytecode
 pra organizar nosso codigo, sendo o java bem orientado a pacotes
 sendo que um projeto pode ter pelo menos umas 200 classes, pacotes ajudam a organizar
 e agrupar classes com coisas em comum
+
 url do website invertida + nome do projeto ai começa a divisão
+
 todas as classes dentro de pacotes devem começar com a linha de codigo sendo o pacote
 o nome da classe
 quando se cria uma classe dentro de um packote o packge tem que ser a primeira linha
 java doc é a melhor forma de se comentar um codigo, de acordo com o livro clean code
 ele diz pra evitar comentarios, pois se esta escrevendo comentarios isso diz que o codigo
 não esta claro o suficiente q eu devo reescrever
+Pelo que entendi, você gostaria de adicionar mais detalhes sobre bits e bytes às suas anotações, incluindo a definição de cada um e outras unidades de medida.
 
+Bits e Bytes: Os Blocos Construtores da Informação Digital
+Bit (Binary Digit):
+
+É a menor unidade de informação em um computador.
+Representa um valor binário: 0 (desligado/falso) ou 1 (ligado/verdadeiro).
+Pense nele como um interruptor de luz: ou está ligado ou está desligado.
+Byte:
+1 byte é igual a 8 bits, bits são 8 0 e 1 reunidos
+É um grupo de 8 bits.
+É a unidade fundamental para medir o tamanho de arquivos e a capacidade de armazenamento.
+Um byte pode representar 256 valores diferentes (2^8).
+Exemplos: uma letra, um número ou um símbolo geralmente ocupam 1 byte de espaço.
+Tipos de Dados e Seus Tamanhos (em Bytes e Bits):
+byte: 1 byte (8 bits)
+short: 2 bytes (16 bits)
+int: 4 bytes (32 bits)
+long: 8 bytes (64 bits)
+float: 4 bytes (32 bits)
+double: 8 bytes (64 bits)
+boolean: 1 bit (embora muitas linguagens de programação o armazenem como 1 byte para alinhamento de memória, para otimização de acesso à memória)
+char: 2 bytes (16 bits) - geralmente usado para caracteres Unicode, que suportam uma gama muito maior de símbolos e idiomas.
+Outras Unidades de Medida:
+Kilobyte (KB): 1 KB = 1024 bytes
+Megabyte (MB): 1 MB = 1024 KB
+Gigabyte (GB): 1 GB = 1024 MB
+Terabyte (TB): 1 TB = 1024 GB
+Essas unidades são usadas para medir o tamanho de arquivos, a capacidade de discos rígidos, memória RAM e outros dispositivos de armazenamento.
+tipos primitivos possuem tamanhos e esses tamanhos tem que ser de acordo com oque voce quer guardar la
+
+quando voce escreve o valor no codigo, quando ele é inteiro, o java por padrao vai entender esses numeros por inteiros
+quando se coloca por exemplo 250.0 pra double da certo, pra float nao, precisando especificar
+float salario = 250.0F;
+double salarioSal = 250.0D;
+int idade = 10;
+long idade1 = 10L;
+
+cast é quando voce força um valor de uma variavel dentro da outra
+voce pode forçar atraves do parenteses
+
+int idade = (int) 100000000000L; -> isso força o java a guardar uma variavel x dentro de outra y pra fazer caber na força
+mesmo se for maior, ele corta bit até entrar
