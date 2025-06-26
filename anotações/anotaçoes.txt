@@ -52,4 +52,17 @@ versões LTS, tem suporte a longo prazo, são as melhores pra se usar
 as empresas focam sempre nas versões LTS, são mais confiaveis
 
 classes seguem o padrão camel case, primeira letra maiscula sempre quando é class
+palavras reservadas em java, ficam coloridas, não podendo usar para identificar variaveis
+pacotes no java ajudam a orgazinar melhor o codigo, a pasta out aparece quando se compila o projeto seria
+o bytecode
+pra organizar nosso codigo, sendo o java bem orientado a pacotes
+sendo que um projeto pode ter pelo menos umas 200 classes, pacotes ajudam a organizar
+e agrupar classes com coisas em comum
+url do website invertida + nome do projeto ai começa a divisão
+todas as classes dentro de pacotes devem começar com a linha de codigo sendo o pacote
+o nome da classe
+quando se cria uma classe dentro de um packote o packge tem que ser a primeira linha
+java doc é a melhor forma de se comentar um codigo, de acordo com o livro clean code
+ele diz pra evitar comentarios, pois se esta escrevendo comentarios isso diz que o codigo
+não esta claro o suficiente q eu devo reescrever
 
