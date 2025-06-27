@@ -28,5 +28,11 @@ public class AulaOperadores {
         boolean isDezMenorQueVinte =10 < 20;
         System.out.println("is dez maior que vinte: "+ isDezMaiorQueVinte);
         System.out.println("is des menor que vinte "+ isDezMenorQueVinte);
+
+        // && (and) || (or)
+        int idade = 36;
+        float salario = 3300F;
+        boolean isDentroLei = idade > 38 && salario > 4612;
+
     }
 }
