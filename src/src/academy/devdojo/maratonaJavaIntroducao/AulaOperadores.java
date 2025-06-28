@@ -34,5 +34,12 @@ public class AulaOperadores {
         float salario = 3300F;
         boolean isDentroLei = idade > 38 && salario > 4612;
 
+        // atribuição = += -= *= /= %=
+
+        double bonus = 1800D;
+        bonus += 1000;
+        System.out.println(bonus);
+
+
     }
 }
