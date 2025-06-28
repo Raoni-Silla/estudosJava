@@ -68,10 +68,10 @@ public class ExercicioJogoDeAdivinhacaoSimples {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-
+        int numSec = (int) (Math.random() * 100) + 1;
         System.out.println("Adivinhe o numero entre 1 e 100: ");
         int n = input.nextInt();
-        int numSec = (int) (Math.random() * 100) + 1;
+
 
         do {
             if (n > numSec){
